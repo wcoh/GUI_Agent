@@ -1,0 +1,30 @@
+streamlit==1.28.0
+opencv-python==4.8.1.78
+numpy==1.26.4
+torch==2.0.1
+torchvision==0.15.2
+Pillow==10.0.0
+requests==2.31.0
+tqdm==4.66.1
+
+# OmniParser 의존성
+easyocr
+supervision==0.18.0
+openai==1.3.5
+transformers
+ultralytics==8.3.70
+accelerate
+timm
+einops==0.8.0
+paddlepaddle
+paddleocr
+pyautogui==0.9.54
+anthropic[bedrock,vertex]>=0.37.1
+screeninfo
+uiautomation
+
+# 선택사항 (Azure, Google Cloud 사용 시)
+# azure-identity
+# google-auth<3,>=2
+# boto3>=1.28.57
+
